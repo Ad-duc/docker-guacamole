@@ -4,9 +4,9 @@ ENV ARCH=amd64 \
   GUAC_VER=1.1.0 \
   GUACAMOLE_HOME=/app/guacamole \
   PG_MAJOR=9.6 \
-  PGDATA=/config/postgres \
-  POSTGRES_USER=guacamole \
-  POSTGRES_DB=guacamole_db
+  DBDATA=/config/postgres \
+  DBDATA_USER=guacamole \
+  NAME_DB=guacamole_db
 
 # Apply the s6-overlay
 
